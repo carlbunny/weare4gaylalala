@@ -1,0 +1,50 @@
+symbolBoard
+
+//grid width height
+//odd row has -1 width
+
+5 3
+
+//key num
+14
+
+//id name type row colum pic_id(0=no picture)
+
+
+0 'hide hide 0 0
+1 'symbolcenter symbol 0 1
+2 'symbolcenter symbol 0 2
+3 'symbolcenter symbol 0 3
+4 'symbolcenter symbol 0 4
+
+5 'symbolcenter symbol 1 0
+6 'symbolcenter symbol 1 1
+7 'symbolcenter symbol 1 2
+8 'hide hide 1 3
+
+9 'hide hide 2 0
+10 'switch switch 2 1
+11 'symbolcenter symbol 2 2
+12 'symbolcenter symbol 2 3
+13 'backspace backspace 2 4
+
+//neighbour change key (if the type is letter)
+
+1
+" ' ~ ^
+2
+# & % $
+3
+ä ö ü ß
+4
+¨ ¸
+5
++ - = * /
+6
+( ) [ ] { }
+7
+, . ! ? : ;
+11
+< > @ `
+12
+/ \ _ |

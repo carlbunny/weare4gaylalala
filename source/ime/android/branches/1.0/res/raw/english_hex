@@ -1,0 +1,50 @@
+hexEnglishboard
+
+//grid width height
+//odd row has -1 width
+10 4 
+
+//key num
+38
+//id char type row colum neighbourGen
+0 q Q letter 0 0 'auto
+1 w W letter 0 1 'auto
+2 e E letter 0 2 'auto
+3 r R letter 0 3 'auto
+4 t T letter 0 4 'auto
+5 y Y letter 0 5 'auto
+6 u U letter 0 6 'auto
+7 i I letter 0 7 'auto
+8 o O letter 0 8 'auto
+9 p P letter 0 9 'auto
+
+10 a A letter 1 0 'auto
+11 s S letter 1 1 'auto
+12 d D letter 1 2 'auto
+13 f F letter 1 3 'auto
+14 g G letter 1 4 'auto
+15 h H letter 1 5 'auto
+16 j J letter 1 6 'auto
+17 k K letter 1 7 'auto
+18 l L letter 1 8 'auto
+
+20 'shift 'shift shift 2 0 'auto
+21 z Z letter 2 1 'auto
+22 x X letter 2 2 'auto
+23 c C letter 2 3 'auto
+24 v V letter 2 4 'auto
+25 b B letter 2 5 'auto
+26 n N letter 2 6 'auto
+27 m M letter 2 7 'auto
+28 , , letter 2 8 'auto
+29 . . letter 2 9 'auto
+
+30 'switch 'switch switch 3 0 'none
+31 @ @ letter 3 1 'none
+32 'space 'space space 3 2 'none
+33 'space 'space space 3 3 'none
+34 'space 'space space 3 4 'none
+35 'space 'space space 3 5 'none
+36 'backspace 'backspace backspace 3 6 'none
+37 'enter 'enter enter 3 7 'none
+38 'enter 'enter enter 3 8 'none

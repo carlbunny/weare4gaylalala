@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AEVIOU滑行输入法</string>
+	<string name="ime_name">AEVIOU滑行输入法</string>
+	<string name="title_setting">设置</string>
+	<string name="setting_catergory_sound_and_hints">提示设置</string>
+	<string name="setting_sound">按键声</string>
+	<string name="setting_hint">显示提示</string>
+	<string name="setting_about">关于输入法</string>
+	<string name="setting_zoom">设置键盘缩放 (完善中未开放)</string>
+	<string name="setting_true">true</string>
+	<string name="setting_false">false</string>
+	<string name="setting_sound_summary">开启/关闭按键声音</string>
+	<string name="setting_hint_summary">开启/关闭路径提示框</string>
+	<string name="setting_fuzzy">模糊音设置</string>
+	<string name="setting_fuzzy_title">模糊音列表</string>
+	<string name="setting_catergory_keyboard">键盘设置</string>
+	<string name="setting_keyboard_h_qwert">横屏全键盘</string>
+	<string name="setting_keyboard_v_qwert">竖屏全键盘</string>
+	<string name="setting_keyboard_h_qwert_summary">横屏时切换到全键盘模式</string>
+	<string name="setting_keyboard_v_qwert_summary">竖屏时切换到全键盘模式</string>
+	<string name="setting_keyboard_hide">隐藏无关按键</string>
+	<string name="setting_keyboard_hide_summary">键盘动态改变时，隐藏无关的按键</string>
+	<string name="setting_zoom_summary">开启/关闭向右倾斜手机缩放键盘</string>
+	<string name="z_zh">z = zh</string>
+	<string name="c_ch">c = ch</string>
+	<string name="s_sh">s = sh</string>
+	<string name="an_ang">an = ang</string>
+	<string name="en_eng">en = eng</string>
+	<string name="in_ing">in = ing</string>
+	<string name="l_n">l = n</string>
+	<string name="f_h">f = h</string>
+	<string name="r_l">r = l</string>
+	<string name="ian_iang">ian = iang</string>
+	<string name="uan_uang">uan = uang</string>
+	<string name="setting_help">帮助</string>
+	<string name="setting_version_title">版本</string>
+	<string name="setting_version_value">1.0 授权开发者</string>
+	<string name="setting_publishing_date_title">发布日期</string>
+	<string name="setting_publishing_date_value">2012-10-1</string>
+	<string name="setting_team_title">AEVIOU Team(董浩亮,范晔,傅承彦,夏嘉斌,戚正伟)</string>
+	<string name="dhl">董浩亮</string>
+	<string name="Frank">范晔</string>
+	<string name="Rex"></string>
+	<string name="Carl">傅承彦</string>
+	<string name="qzw">戚正伟</string>
+	
+	<string name="dev">开发人员</string>
+	<string name="patent_holder">第一专利发明人</string>
+	<string name="founder">项目创始人</string>
+	<string name="instructor">项目总监</string>
+	<string name="setting_tech_support">技术支持</string>
+	<string name="hint_mode">提示跟随方式</string>
+	<string name="hint_mode_summary_off">提示实时跟随光标</string>
+	<string name="hint_mode_summary_on">提示惰性跟随光标，提升性能</string>
+	<string name="preference_saved">设置已保存，如更改键盘模式请重新启动输入法（旋转屏幕或切换输入法）</string>
+	<string name="dict_needSD">用户词库需要SD卡才能工作</string>
+	<string name="no_space_dialog_title">错误提示</string>
+	<string name="no_space_dialog_content">空间不足，无法构建词库</string>
+	<string name="term_of_use">使用条款</string>
+	<string name="blahblahblah">　　您使用AEVIOU中文滑行输入法即表示您同意受到我们服务条款的约束，这些条款包括但不限于有关个人使用的规定。\n　　这是一款仅授权于测试的版本，不经过原作者AEVIOU开发团队允许不得用于商业行为。按下确定按钮视为立刻同意上述条款。\n　　项目联系方式：aeviou@gmail.com。\nCopyright ©2012-2013 AEVIOU All rights reserved
+	</string>
+	<string name="generating_dict">请稍候，正在生成词库……</string>
+	<string name="setting_vibrate">按键震动</string>
+	<string name="setting_vibrate_summary">开启/关闭按键震动</string>
+	<string name="ok">确定</string>
+	<string name="setting_rights">权利声明</string>
+	<string name="setting_version_info">版本信息</string>
+	<string name="term_of_use_summary">打开以查看详情</string>
+
+</resources>
