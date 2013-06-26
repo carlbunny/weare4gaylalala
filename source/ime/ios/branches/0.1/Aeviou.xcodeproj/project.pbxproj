@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AeviouAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AeviouAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* AeviouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AeviouViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* AeviouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AeviouViewController.m */; };
+		58C8635E11F0503A00022694 /* AeviouView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8635D11F0503A00022694 /* AeviouView.m */; };
+		CF7483E4120829D900A77126 /* PinyinTree.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483E3120829D900A77126 /* PinyinTree.m */; };
+		CF7483F112082A7300A77126 /* DynamicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483E812082A7300A77126 /* DynamicKey.m */; };
+		CF7483F212082A7300A77126 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483EA12082A7300A77126 /* Keyboard.m */; };
+		CF7483F312082A7300A77126 /* KeyboardArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483EC12082A7300A77126 /* KeyboardArrangement.m */; };
+		CF7483F412082A7300A77126 /* KeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483EE12082A7300A77126 /* KeyboardHelper.m */; };
+		CF7483F512082A7300A77126 /* KeyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7483F012082A7300A77126 /* KeyImage.m */; };
+		CF7832541206AD8D00B5579C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7832521206AD8D00B5579C /* SettingViewController.m */; };
+		CF7E5D6212065D6E00932A1F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E5D6112065D6E00932A1F /* Constants.m */; };
+		CF7E5E491206689700932A1F /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E5E481206689700932A1F /* SwitchViewController.m */; };
+		CF806CEE12101532004C8945 /* PinyinContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CF806CED12101532004C8945 /* PinyinContext.m */; };
+		CF85789112082EBB00D981DD /* WordRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = CF85789012082EBB00D981DD /* WordRoot.m */; };
+		CF85789412082EC800D981DD /* WordNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CF85789312082EC800D981DD /* WordNode.m */; };
+		CF8CEB0A120FFE6800D04F54 /* CandidateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8CEB09120FFE6800D04F54 /* CandidateView.m */; };
+		CFC0F87B1204D35A00349190 /* AbstractStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0F8721204D35A00349190 /* AbstractStatusHandler.m */; };
+		CFC0F87C1204D35A00349190 /* ChStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0F8741204D35A00349190 /* ChStatusHandler.m */; };
+		CFC0F87D1204D35A00349190 /* EnStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0F8761204D35A00349190 /* EnStatusHandler.m */; };
+		CFC0F87E1204D35A00349190 /* NumStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0F8781204D35A00349190 /* NumStatusHandler.m */; };
+		CFC0F87F1204D35A00349190 /* SpecStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0F87A1204D35A00349190 /* SpecStatusHandler.m */; };
+		CFC5A709120BE67700327B8E /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A708120BE67700327B8E /* SettingViewController.xib */; };
+		CFC5A880120BF33100327B8E /* blank-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A86B120BF33100327B8E /* blank-normal.png */; };
+		CFC5A881120BF33100327B8E /* blank-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A86C120BF33100327B8E /* blank-pressed.png */; };
+		CFC5A882120BF33100327B8E /* char-backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A86D120BF33100327B8E /* char-backspace.png */; };
+		CFC5A883120BF33100327B8E /* char-cap.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A86E120BF33100327B8E /* char-cap.png */; };
+		CFC5A884120BF33100327B8E /* char-ch.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A86F120BF33100327B8E /* char-ch.png */; };
+		CFC5A885120BF33100327B8E /* char-del.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A870120BF33100327B8E /* char-del.png */; };
+		CFC5A886120BF33100327B8E /* char-en.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A871120BF33100327B8E /* char-en.png */; };
+		CFC5A887120BF33100327B8E /* char-enter.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A872120BF33100327B8E /* char-enter.png */; };
+		CFC5A888120BF33100327B8E /* char-full.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A873120BF33100327B8E /* char-full.png */; };
+		CFC5A889120BF33100327B8E /* char-half.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A874120BF33100327B8E /* char-half.png */; };
+		CFC5A88A120BF33100327B8E /* char-number.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A875120BF33100327B8E /* char-number.png */; };
+		CFC5A88B120BF33100327B8E /* char-setup.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A876120BF33100327B8E /* char-setup.png */; };
+		CFC5A88C120BF33100327B8E /* char-shift.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A877120BF33100327B8E /* char-shift.png */; };
+		CFC5A88D120BF33100327B8E /* char-special.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A878120BF33100327B8E /* char-special.png */; };
+		CFC5A88E120BF33100327B8E /* char-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A879120BF33100327B8E /* char-tab.png */; };
+		CFC5A88F120BF33100327B8E /* key-next.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87A120BF33100327B8E /* key-next.png */; };
+		CFC5A890120BF33100327B8E /* key-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87B120BF33100327B8E /* key-normal.png */; };
+		CFC5A891120BF33100327B8E /* key-possible.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87C120BF33100327B8E /* key-possible.png */; };
+		CFC5A892120BF33100327B8E /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87D120BF33100327B8E /* key-pressed.png */; };
+		CFC5A893120BF33100327B8E /* key-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87E120BF33100327B8E /* key-selected.png */; };
+		CFC5A894120BF33100327B8E /* pinyin-list.txt in Resources */ = {isa = PBXBuildFile; fileRef = CFC5A87F120BF33100327B8E /* pinyin-list.txt */; };
+		CFD999D81208389A00A2522C /* WordList.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD999D71208389A00A2522C /* WordList.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AeviouAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AeviouAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AeviouAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AeviouAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Aeviou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aeviou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* AeviouViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AeviouViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* AeviouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AeviouViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* AeviouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AeviouViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Aeviou_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aeviou_Prefix.pch; sourceTree = "<group>"; };
+		58A313AC11EDFDE800EC9750 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		58C8635C11F0503A00022694 /* AeviouView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AeviouView.h; sourceTree = "<group>"; };
+		58C8635D11F0503A00022694 /* AeviouView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AeviouView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Aeviou-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aeviou-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CF7483E2120829D900A77126 /* PinyinTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinTree.h; sourceTree = "<group>"; };
+		CF7483E3120829D900A77126 /* PinyinTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinTree.m; sourceTree = "<group>"; };
+		CF7483E712082A7300A77126 /* DynamicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicKey.h; sourceTree = "<group>"; };
+		CF7483E812082A7300A77126 /* DynamicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicKey.m; sourceTree = "<group>"; };
+		CF7483E912082A7300A77126 /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		CF7483EA12082A7300A77126 /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
+		CF7483EB12082A7300A77126 /* KeyboardArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardArrangement.h; sourceTree = "<group>"; };
+		CF7483EC12082A7300A77126 /* KeyboardArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardArrangement.m; sourceTree = "<group>"; };
+		CF7483ED12082A7300A77126 /* KeyboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHelper.h; sourceTree = "<group>"; };
+		CF7483EE12082A7300A77126 /* KeyboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardHelper.m; sourceTree = "<group>"; };
+		CF7483EF12082A7300A77126 /* KeyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyImage.h; sourceTree = "<group>"; };
+		CF7483F012082A7300A77126 /* KeyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyImage.m; sourceTree = "<group>"; };
+		CF7832511206AD8D00B5579C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		CF7832521206AD8D00B5579C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		CF7E5D6112065D6E00932A1F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CF7E5E471206689700932A1F /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		CF7E5E481206689700932A1F /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		CF806CEC12101532004C8945 /* PinyinContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinContext.h; sourceTree = "<group>"; };
+		CF806CED12101532004C8945 /* PinyinContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinContext.m; sourceTree = "<group>"; };
+		CF85788F12082EBB00D981DD /* WordRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordRoot.h; sourceTree = "<group>"; };
+		CF85789012082EBB00D981DD /* WordRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRoot.m; sourceTree = "<group>"; };
+		CF85789212082EC800D981DD /* WordNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordNode.h; sourceTree = "<group>"; };
+		CF85789312082EC800D981DD /* WordNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordNode.m; sourceTree = "<group>"; };
+		CF8CEB08120FFE6800D04F54 /* CandidateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidateView.h; sourceTree = "<group>"; };
+		CF8CEB09120FFE6800D04F54 /* CandidateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidateView.m; sourceTree = "<group>"; };
+		CFC0F8711204D35A00349190 /* AbstractStatusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractStatusHandler.h; path = StatusHandlers/AbstractStatusHandler.h; sourceTree = "<group>"; };
+		CFC0F8721204D35A00349190 /* AbstractStatusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractStatusHandler.m; path = StatusHandlers/AbstractStatusHandler.m; sourceTree = "<group>"; };
+		CFC0F8731204D35A00349190 /* ChStatusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChStatusHandler.h; path = StatusHandlers/ChStatusHandler.h; sourceTree = "<group>"; };
+		CFC0F8741204D35A00349190 /* ChStatusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChStatusHandler.m; path = StatusHandlers/ChStatusHandler.m; sourceTree = "<group>"; };
+		CFC0F8751204D35A00349190 /* EnStatusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnStatusHandler.h; path = StatusHandlers/EnStatusHandler.h; sourceTree = "<group>"; };
+		CFC0F8761204D35A00349190 /* EnStatusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnStatusHandler.m; path = StatusHandlers/EnStatusHandler.m; sourceTree = "<group>"; };
+		CFC0F8771204D35A00349190 /* NumStatusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumStatusHandler.h; path = StatusHandlers/NumStatusHandler.h; sourceTree = "<group>"; };
+		CFC0F8781204D35A00349190 /* NumStatusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumStatusHandler.m; path = StatusHandlers/NumStatusHandler.m; sourceTree = "<group>"; };
+		CFC0F8791204D35A00349190 /* SpecStatusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecStatusHandler.h; path = StatusHandlers/SpecStatusHandler.h; sourceTree = "<group>"; };
+		CFC0F87A1204D35A00349190 /* SpecStatusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecStatusHandler.m; path = StatusHandlers/SpecStatusHandler.m; sourceTree = "<group>"; };
+		CFC5A708120BE67700327B8E /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		CFC5A86B120BF33100327B8E /* blank-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank-normal.png"; path = "resources/blank-normal.png"; sourceTree = "<group>"; };
+		CFC5A86C120BF33100327B8E /* blank-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank-pressed.png"; path = "resources/blank-pressed.png"; sourceTree = "<group>"; };
+		CFC5A86D120BF33100327B8E /* char-backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-backspace.png"; path = "resources/char-backspace.png"; sourceTree = "<group>"; };
+		CFC5A86E120BF33100327B8E /* char-cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-cap.png"; path = "resources/char-cap.png"; sourceTree = "<group>"; };
+		CFC5A86F120BF33100327B8E /* char-ch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-ch.png"; path = "resources/char-ch.png"; sourceTree = "<group>"; };
+		CFC5A870120BF33100327B8E /* char-del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-del.png"; path = "resources/char-del.png"; sourceTree = "<group>"; };
+		CFC5A871120BF33100327B8E /* char-en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-en.png"; path = "resources/char-en.png"; sourceTree = "<group>"; };
+		CFC5A872120BF33100327B8E /* char-enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-enter.png"; path = "resources/char-enter.png"; sourceTree = "<group>"; };
+		CFC5A873120BF33100327B8E /* char-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-full.png"; path = "resources/char-full.png"; sourceTree = "<group>"; };
+		CFC5A874120BF33100327B8E /* char-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-half.png"; path = "resources/char-half.png"; sourceTree = "<group>"; };
+		CFC5A875120BF33100327B8E /* char-number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-number.png"; path = "resources/char-number.png"; sourceTree = "<group>"; };
+		CFC5A876120BF33100327B8E /* char-setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-setup.png"; path = "resources/char-setup.png"; sourceTree = "<group>"; };
+		CFC5A877120BF33100327B8E /* char-shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-shift.png"; path = "resources/char-shift.png"; sourceTree = "<group>"; };
+		CFC5A878120BF33100327B8E /* char-special.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-special.png"; path = "resources/char-special.png"; sourceTree = "<group>"; };
+		CFC5A879120BF33100327B8E /* char-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "char-tab.png"; path = "resources/char-tab.png"; sourceTree = "<group>"; };
+		CFC5A87A120BF33100327B8E /* key-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-next.png"; path = "resources/key-next.png"; sourceTree = "<group>"; };
+		CFC5A87B120BF33100327B8E /* key-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-normal.png"; path = "resources/key-normal.png"; sourceTree = "<group>"; };
+		CFC5A87C120BF33100327B8E /* key-possible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-possible.png"; path = "resources/key-possible.png"; sourceTree = "<group>"; };
+		CFC5A87D120BF33100327B8E /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-pressed.png"; path = "resources/key-pressed.png"; sourceTree = "<group>"; };
+		CFC5A87E120BF33100327B8E /* key-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-selected.png"; path = "resources/key-selected.png"; sourceTree = "<group>"; };
+		CFC5A87F120BF33100327B8E /* pinyin-list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "pinyin-list.txt"; path = "resources/pinyin-list.txt"; sourceTree = "<group>"; };
+		CFD999D61208389A00A2522C /* WordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
+		CFD999D71208389A00A2522C /* WordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordList.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CEB07120FFE5200D04F54 /* CandidateContext */,
+				CF7483E512082A7300A77126 /* EditContext */,
+				CF7483E612082A7300A77126 /* KeyboardContext */,
+				CF7483DD1208298900A77126 /* PinyinContext */,
+				CF77257A11FB47B400514D77 /* StatusHandlers */,
+				1D3623240D0F684500981E51 /* AeviouAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AeviouAppDelegate.m */,
+				CF7E5E471206689700932A1F /* SwitchViewController.h */,
+				CF7E5E481206689700932A1F /* SwitchViewController.m */,
+				CF7832511206AD8D00B5579C /* SettingViewController.h */,
+				CF7832521206AD8D00B5579C /* SettingViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* AeviouViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* AeviouViewController.m */,
+				58C8635C11F0503A00022694 /* AeviouView.h */,
+				58C8635D11F0503A00022694 /* AeviouView.m */,
+				58A313AC11EDFDE800EC9750 /* Constants.h */,
+				CF7E5D6112065D6E00932A1F /* Constants.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Aeviou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Aeviou_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5A86B120BF33100327B8E /* blank-normal.png */,
+				CFC5A86C120BF33100327B8E /* blank-pressed.png */,
+				CFC5A86D120BF33100327B8E /* char-backspace.png */,
+				CFC5A86E120BF33100327B8E /* char-cap.png */,
+				CFC5A86F120BF33100327B8E /* char-ch.png */,
+				CFC5A870120BF33100327B8E /* char-del.png */,
+				CFC5A871120BF33100327B8E /* char-en.png */,
+				CFC5A872120BF33100327B8E /* char-enter.png */,
+				CFC5A873120BF33100327B8E /* char-full.png */,
+				CFC5A874120BF33100327B8E /* char-half.png */,
+				CFC5A875120BF33100327B8E /* char-number.png */,
+				CFC5A876120BF33100327B8E /* char-setup.png */,
+				CFC5A877120BF33100327B8E /* char-shift.png */,
+				CFC5A878120BF33100327B8E /* char-special.png */,
+				CFC5A879120BF33100327B8E /* char-tab.png */,
+				CFC5A87A120BF33100327B8E /* key-next.png */,
+				CFC5A87B120BF33100327B8E /* key-normal.png */,
+				CFC5A87C120BF33100327B8E /* key-possible.png */,
+				CFC5A87D120BF33100327B8E /* key-pressed.png */,
+				CFC5A87E120BF33100327B8E /* key-selected.png */,
+				CFC5A87F120BF33100327B8E /* pinyin-list.txt */,
+				CFC5A708120BE67700327B8E /* SettingViewController.xib */,
+				2899E5210DE3E06400AC0155 /* AeviouViewController.xib */,
+				8D1107310486CEB800E47090 /* Aeviou-Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7483DD1208298900A77126 /* PinyinContext */ = {
+			isa = PBXGroup;
+			children = (
+				CF7483E2120829D900A77126 /* PinyinTree.h */,
+				CF7483E3120829D900A77126 /* PinyinTree.m */,
+				CF85788F12082EBB00D981DD /* WordRoot.h */,
+				CF85789012082EBB00D981DD /* WordRoot.m */,
+				CF85789212082EC800D981DD /* WordNode.h */,
+				CF85789312082EC800D981DD /* WordNode.m */,
+				CFD999D61208389A00A2522C /* WordList.h */,
+				CFD999D71208389A00A2522C /* WordList.m */,
+				CF806CEC12101532004C8945 /* PinyinContext.h */,
+				CF806CED12101532004C8945 /* PinyinContext.m */,
+			);
+			path = PinyinContext;
+			sourceTree = "<group>";
+		};
+		CF7483E512082A7300A77126 /* EditContext */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EditContext;
+			sourceTree = "<group>";
+		};
+		CF7483E612082A7300A77126 /* KeyboardContext */ = {
+			isa = PBXGroup;
+			children = (
+				CF7483E712082A7300A77126 /* DynamicKey.h */,
+				CF7483E812082A7300A77126 /* DynamicKey.m */,
+				CF7483E912082A7300A77126 /* Keyboard.h */,
+				CF7483EA12082A7300A77126 /* Keyboard.m */,
+				CF7483EB12082A7300A77126 /* KeyboardArrangement.h */,
+				CF7483EC12082A7300A77126 /* KeyboardArrangement.m */,
+				CF7483ED12082A7300A77126 /* KeyboardHelper.h */,
+				CF7483EE12082A7300A77126 /* KeyboardHelper.m */,
+				CF7483EF12082A7300A77126 /* KeyImage.h */,
+				CF7483F012082A7300A77126 /* KeyImage.m */,
+			);
+			path = KeyboardContext;
+			sourceTree = "<group>";
+		};
+		CF77257A11FB47B400514D77 /* StatusHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC0F8711204D35A00349190 /* AbstractStatusHandler.h */,
+				CFC0F8721204D35A00349190 /* AbstractStatusHandler.m */,
+				CFC0F8731204D35A00349190 /* ChStatusHandler.h */,
+				CFC0F8741204D35A00349190 /* ChStatusHandler.m */,
+				CFC0F8751204D35A00349190 /* EnStatusHandler.h */,
+				CFC0F8761204D35A00349190 /* EnStatusHandler.m */,
+				CFC0F8771204D35A00349190 /* NumStatusHandler.h */,
+				CFC0F8781204D35A00349190 /* NumStatusHandler.m */,
+				CFC0F8791204D35A00349190 /* SpecStatusHandler.h */,
+				CFC0F87A1204D35A00349190 /* SpecStatusHandler.m */,
+			);
+			name = StatusHandlers;
+			sourceTree = "<group>";
+		};
+		CF8CEB07120FFE5200D04F54 /* CandidateContext */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CEB08120FFE6800D04F54 /* CandidateView.h */,
+				CF8CEB09120FFE6800D04F54 /* CandidateView.m */,
+			);
+			path = CandidateContext;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Aeviou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aeviou" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aeviou;
+			productName = Aeviou;
+			productReference = 1D6058910D05DD3D006BFB54 /* Aeviou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Aeviou" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Aeviou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* AeviouViewController.xib in Resources */,
+				CFC5A709120BE67700327B8E /* SettingViewController.xib in Resources */,
+				CFC5A880120BF33100327B8E /* blank-normal.png in Resources */,
+				CFC5A881120BF33100327B8E /* blank-pressed.png in Resources */,
+				CFC5A882120BF33100327B8E /* char-backspace.png in Resources */,
+				CFC5A883120BF33100327B8E /* char-cap.png in Resources */,
+				CFC5A884120BF33100327B8E /* char-ch.png in Resources */,
+				CFC5A885120BF33100327B8E /* char-del.png in Resources */,
+				CFC5A886120BF33100327B8E /* char-en.png in Resources */,
+				CFC5A887120BF33100327B8E /* char-enter.png in Resources */,
+				CFC5A888120BF33100327B8E /* char-full.png in Resources */,
+				CFC5A889120BF33100327B8E /* char-half.png in Resources */,
+				CFC5A88A120BF33100327B8E /* char-number.png in Resources */,
+				CFC5A88B120BF33100327B8E /* char-setup.png in Resources */,
+				CFC5A88C120BF33100327B8E /* char-shift.png in Resources */,
+				CFC5A88D120BF33100327B8E /* char-special.png in Resources */,
+				CFC5A88E120BF33100327B8E /* char-tab.png in Resources */,
+				CFC5A88F120BF33100327B8E /* key-next.png in Resources */,
+				CFC5A890120BF33100327B8E /* key-normal.png in Resources */,
+				CFC5A891120BF33100327B8E /* key-possible.png in Resources */,
+				CFC5A892120BF33100327B8E /* key-pressed.png in Resources */,
+				CFC5A893120BF33100327B8E /* key-selected.png in Resources */,
+				CFC5A894120BF33100327B8E /* pinyin-list.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AeviouAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* AeviouViewController.m in Sources */,
+				58C8635E11F0503A00022694 /* AeviouView.m in Sources */,
+				CFC0F87B1204D35A00349190 /* AbstractStatusHandler.m in Sources */,
+				CFC0F87C1204D35A00349190 /* ChStatusHandler.m in Sources */,
+				CFC0F87D1204D35A00349190 /* EnStatusHandler.m in Sources */,
+				CFC0F87E1204D35A00349190 /* NumStatusHandler.m in Sources */,
+				CFC0F87F1204D35A00349190 /* SpecStatusHandler.m in Sources */,
+				CF7E5D6212065D6E00932A1F /* Constants.m in Sources */,
+				CF7E5E491206689700932A1F /* SwitchViewController.m in Sources */,
+				CF7832541206AD8D00B5579C /* SettingViewController.m in Sources */,
+				CF7483E4120829D900A77126 /* PinyinTree.m in Sources */,
+				CF7483F112082A7300A77126 /* DynamicKey.m in Sources */,
+				CF7483F212082A7300A77126 /* Keyboard.m in Sources */,
+				CF7483F312082A7300A77126 /* KeyboardArrangement.m in Sources */,
+				CF7483F412082A7300A77126 /* KeyboardHelper.m in Sources */,
+				CF7483F512082A7300A77126 /* KeyImage.m in Sources */,
+				CF85789112082EBB00D981DD /* WordRoot.m in Sources */,
+				CF85789412082EC800D981DD /* WordNode.m in Sources */,
+				CFD999D81208389A00A2522C /* WordList.m in Sources */,
+				CF8CEB0A120FFE6800D04F54 /* CandidateView.m in Sources */,
+				CF806CEE12101532004C8945 /* PinyinContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Aeviou_Prefix.pch;
+				INFOPLIST_FILE = "Aeviou-Info.plist";
+				PRODUCT_NAME = Aeviou;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Aeviou_Prefix.pch;
+				INFOPLIST_FILE = "Aeviou-Info.plist";
+				PRODUCT_NAME = Aeviou;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Aeviou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Aeviou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
