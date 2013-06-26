@@ -1,1467 +1,0 @@
-TAeviou
-v7
-r0
-t301202788.669877
-cCheck dependencies
-cProcessInfoPlistFile /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist Aeviou-Info.plist
-cCompileXIB /Users/dhl/Documents/Aeviou/MainWindow.xib
-cCompileXIB /Users/dhl/Documents/Aeviou/AeviouViewController.xib
-cCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Next.png images/Key-Next.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Normal.png images/Key-Normal.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Possible.png images/Key-Possible.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Pressed.png images/Key-Pressed.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Selected.png images/Key-Selected.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-backspace.png images/char-backspace.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-cap.png images/char-cap.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-del.png images/char-del.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-en.png images/char-en.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-enter.png images/char-enter.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-full.png images/char-full.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-number.png images/char-number.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-setup.png images/char-setup.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-shift.png images/char-shift.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-special.png images/char-special.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/char-tab.png images/char-tab.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/blank-left.png images/blank-left.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/blank-mid.png images/blank-mid.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/blank-right.png images/blank-right.png
-cCpResource build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper.h Classes/KeyboardHelper.h
-cProcessPCH /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch.gch Aeviou_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o /Users/dhl/Documents/Aeviou/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o /Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o /Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o /Users/dhl/Documents/Aeviou/Classes/DynamicKey.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o /Users/dhl/Documents/Aeviou/Classes/Keyboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o /Users/dhl/Documents/Aeviou/Classes/KeyImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o /Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o /Users/dhl/Documents/Aeviou/Classes/AeviouView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o /Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o /Users/dhl/Documents/Aeviou/Classes/PinYinTree.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou normal i386
-cGenerateDSYMFile /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-cTouch /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BD236930000000000000110
-t1272067731
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD1CD90000000000026F020
-t1272040848
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD1FFC200000000002A96A0
-t1272053698
-s2791072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD1FF9E0000000000001355
-t1272053662
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BD20412000000000000098F
-t1272054802
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BD20471000000000222E640
-t1272054897
-s35841600
-
-N/Users/dhl/Documents/Aeviou/AeviouViewController.xib
-c000000004C4021180000000000004089
-t1279271192
-s16521
-
-N/Users/dhl/Documents/Aeviou/Aeviou_Prefix.pch
-c000000004C3DC61800000000000000B5
-t1279116824
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.h
-c000000004C3DC61800000000000001D3
-t1279116824
-s467
-i<UIKit/UIKit.h>
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m
-c000000004C3DC618000000000000079F
-t1279116824
-s1951
-i"AeviouAppDelegate.h"
-i"AeviouViewController.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouView.h
-c000000004C40192E00000000000000F4
-t1279269166
-s244
-i<UIKit/UIKit.h>
-i"Keyboard.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouView.m
-c000000004C4147B20000000000000528
-t1279346610
-s1320
-i"AeviouView.h"
-i"KeyImage.h"
-i"PinYinTree.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouViewController.h
-c000000004C3DC61800000000000000E5
-t1279116824
-s229
-i<UIKit/UIKit.h>
-
-N/Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m
-c000000004C3DC6180000000000000546
-t1279116824
-s1350
-i"AeviouViewController.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/Constants.h
-c000000004C414EA60000000000000398
-t1279348390
-s920
-
-N/Users/dhl/Documents/Aeviou/Classes/DynamicKey.h
-c000000004C415A74000000000000039F
-t1279351412
-s927
-i"Constants.h"
-i<UIKit/UIKit.h>
-
-N/Users/dhl/Documents/Aeviou/Classes/DynamicKey.m
-c000000004C415A660000000000000F0C
-t1279351398
-s3852
-i"KeyImage.h"
-i"DynamicKey.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyImage.h
-c000000004C4148C600000000000000FF
-t1279346886
-s255
-i<UIKit/UIKit.h>
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyImage.m
-c000000004C40280600000000000003DB
-t1279272966
-s987
-i"KeyImage.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/Keyboard.h
-c000000004C415E7E000000000000022C
-t1279352446
-s556
-i"DynamicKey.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/Keyboard.m
-c000000004C415F96000000000000103E
-t1279352726
-s4158
-i"Keyboard.h"
-i"KeyboardArrangement.h"
-i"KeyboardHelper.h"
-i"PinYinTree.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.h
-c000000004C4101C60000000000000148
-t1279328710
-s328
-i"DynamicKey.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m
-c000000004C4144940000000000002655
-t1279345812
-s9813
-i<UIKit/UIKit.h>
-i"KeyboardArrangement.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.h
-c000000004C4102380000000000000055
-t1279328824
-s85
-
-N/Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m
-c000000004C4163B400000000000003F8
-t1279353780
-s1016
-i"KeyboardHelper.h"
-i"Constants.h"
-
-N/Users/dhl/Documents/Aeviou/Classes/PinYinTree.h
-c000000004C414E1A0000000000000096
-t1279348250
-s150
-
-N/Users/dhl/Documents/Aeviou/Classes/PinYinTree.m
-c000000004C414E380000000000000191
-t1279348280
-s401
-i"PinYinTree.h"
-
-N/Users/dhl/Documents/Aeviou/MainWindow.xib
-c000000004C3DC6180000000000004CFF
-t1279116824
-s19711
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Aeviou.LinkFileList
-c000000004C42F8510000000000000492
-t1279457361
-s1170
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o
-t1279457363
-s44968
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o
-t1279457363
-s19448
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o
-t1279457363
-s34252
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o
-t1279457363
-s24616
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o
-t1279457363
-s11112
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o
-t1279457363
-s21652
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o
-t1279457363
-s29572
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o
-t1279457363
-s7524
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o
-t1279457363
-s6944
-
-N/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o
-t1279457363
-s6280
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-t1279457364
-s952
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM
-t1279457364
-s102
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-t1279457364
-s54876
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/AeviouViewController.nib
-t1279271706
-s844
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist
-t1279154746
-s794
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Next.png
-t1279271986
-s1711
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Normal.png
-t1279271986
-s1672
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Possible.png
-t1279271986
-s1634
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Pressed.png
-t1279271986
-s1764
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Selected.png
-t1279271986
-s1606
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper.h
-t1279328926
-s85
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/MainWindow.nib
-t1279154750
-s1121
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/PkgInfo
-t1279154746
-s8
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-left.png
-t1279298254
-s2638
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-mid.png
-t1279298678
-s2479
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-right.png
-t1279298678
-s2440
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-backspace.png
-t1279286130
-s1109
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-cap.png
-t1279286130
-s712
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-del.png
-t1279286130
-s566
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-en.png
-t1279286130
-s616
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-enter.png
-t1279286130
-s910
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-full.png
-t1279286130
-s573
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-number.png
-t1279286130
-s753
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-setup.png
-t1279286130
-s672
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-shift.png
-t1279286130
-s651
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-special.png
-t1279286130
-s755
-
-N/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-tab.png
-t1279286130
-s655
-
-N/Users/dhl/Documents/Aeviou/images/Key-Next.png
-c000000004C3E618400000000000006AF
-t1279156612
-s1711
-
-N/Users/dhl/Documents/Aeviou/images/Key-Normal.png
-c000000004C3E61BA0000000000000688
-t1279156666
-s1672
-
-N/Users/dhl/Documents/Aeviou/images/Key-Possible.png
-c000000004C3E61F60000000000000662
-t1279156726
-s1634
-
-N/Users/dhl/Documents/Aeviou/images/Key-Pressed.png
-c000000004C3E62EE00000000000006E4
-t1279156974
-s1764
-
-N/Users/dhl/Documents/Aeviou/images/Key-Selected.png
-c000000004C3E630A0000000000000646
-t1279157002
-s1606
-
-N/Users/dhl/Documents/Aeviou/images/blank-left.png
-c000000004C4089580000000000000A4E
-t1279297880
-s2638
-
-N/Users/dhl/Documents/Aeviou/images/blank-mid.png
-c000000004C408C1200000000000009AF
-t1279298578
-s2479
-
-N/Users/dhl/Documents/Aeviou/images/blank-right.png
-c000000004C408C1E0000000000000988
-t1279298590
-s2440
-
-N/Users/dhl/Documents/Aeviou/images/char-backspace.png
-c000000004C405B080000000000000455
-t1279286024
-s1109
-
-N/Users/dhl/Documents/Aeviou/images/char-cap.png
-c000000004C40594000000000000002C8
-t1279285568
-s712
-
-N/Users/dhl/Documents/Aeviou/images/char-del.png
-c000000004C405ADA0000000000000236
-t1279285978
-s566
-
-N/Users/dhl/Documents/Aeviou/images/char-en.png
-c000000004C405A860000000000000268
-t1279285894
-s616
-
-N/Users/dhl/Documents/Aeviou/images/char-enter.png
-c000000004C4059D2000000000000038E
-t1279285714
-s910
-
-N/Users/dhl/Documents/Aeviou/images/char-full.png
-c000000004C405A5A000000000000023D
-t1279285850
-s573
-
-N/Users/dhl/Documents/Aeviou/images/char-number.png
-c000000004C405AA200000000000002F1
-t1279285922
-s753
-
-N/Users/dhl/Documents/Aeviou/images/char-setup.png
-c000000004C405A0800000000000002A0
-t1279285768
-s672
-
-N/Users/dhl/Documents/Aeviou/images/char-shift.png
-c000000004C405962000000000000028B
-t1279285602
-s651
-
-N/Users/dhl/Documents/Aeviou/images/char-special.png
-c000000004C405ABE00000000000002F3
-t1279285950
-s755
-
-N/Users/dhl/Documents/Aeviou/images/char-tab.png
-c000000004C405A24000000000000028F
-t1279285796
-s655
-
-N/Users/dhl/Documents/Aeviou/main.m
-c000000004C3DC6180000000000000162
-t1279116824
-s354
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/AeviouViewController.xib
-c000000004C4021190000000000004089
-t1279271193
-s16521
-
-N/Users/zk/Documents/Aeviou/Aeviou_Prefix.pch
-c000000004C3DC61900000000000000B5
-t1279116825
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.h
-c000000004C3DC61900000000000001D3
-t1279116825
-s467
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m
-c000000004C3DC619000000000000079F
-t1279116825
-s1951
-i"AeviouAppDelegate.h"
-i"AeviouViewController.h"
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouView
-c000000004C400D620000000000000000
-t1279266146
-s0
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouView.h
-c000000004C40192E00000000000000F4
-t1279269166
-s244
-i<UIKit/UIKit.h>
-i"Keyboard.h"
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouView.m
-c000000004C4147B20000000000000528
-t1279346610
-s1320
-i"AeviouView.h"
-i"KeyImage.h"
-i"PinYinTree.h"
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouViewController.h
-c000000004C3DC61900000000000000E5
-t1279116825
-s229
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/Classes/AeviouViewController.m
-c000000004C3DC6190000000000000546
-t1279116825
-s1350
-i"AeviouViewController.h"
-
-N/Users/zk/Documents/Aeviou/Classes/Constants.h
-c000000004C414EA70000000000000398
-t1279348391
-s920
-
-N/Users/zk/Documents/Aeviou/Classes/DynamicKey.h
-c000000004C415A75000000000000039F
-t1279351413
-s927
-i"Constants.h"
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/Classes/DynamicKey.m
-c000000004C415A670000000000000F0C
-t1279351399
-s3852
-i"KeyImage.h"
-i"DynamicKey.h"
-
-N/Users/zk/Documents/Aeviou/Classes/KeyImage.h
-c000000004C4148C700000000000000FF
-t1279346887
-s255
-i<UIKit/UIKit.h>
-
-N/Users/zk/Documents/Aeviou/Classes/KeyImage.m
-c000000004C40280700000000000003DB
-t1279272967
-s987
-i"KeyImage.h"
-
-N/Users/zk/Documents/Aeviou/Classes/Keyboard.h
-c000000004C415E7F000000000000022C
-t1279352447
-s556
-i"DynamicKey.h"
-
-N/Users/zk/Documents/Aeviou/Classes/Keyboard.m
-c000000004C415F96000000000000103E
-t1279352726
-s4158
-i"Keyboard.h"
-i"KeyboardArrangement.h"
-i"KeyboardHelper.h"
-i"PinYinTree.h"
-
-N/Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.h
-c000000004C4101C70000000000000148
-t1279328711
-s328
-i"DynamicKey.h"
-
-N/Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m
-c000000004C4144940000000000002655
-t1279345812
-s9813
-i<UIKit/UIKit.h>
-i"KeyboardArrangement.h"
-
-N/Users/zk/Documents/Aeviou/Classes/KeyboardHelper
-c000000004C4101F00000000000000000
-t1279328752
-s0
-
-N/Users/zk/Documents/Aeviou/Classes/KeyboardHelper.h
-c000000004C4102390000000000000055
-t1279328825
-s85
-
-N/Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m
-c000000004C4163B400000000000003F8
-t1279353780
-s1016
-i"KeyboardHelper.h"
-i"Constants.h"
-
-N/Users/zk/Documents/Aeviou/Classes/PinYinTree.h
-c000000004C414E1A0000000000000096
-t1279348250
-s150
-
-N/Users/zk/Documents/Aeviou/Classes/PinYinTree.m
-c000000004C414E390000000000000191
-t1279348281
-s401
-
-N/Users/zk/Documents/Aeviou/MainWindow.xib
-c000000004C3DC6190000000000004CFF
-t1279116825
-s19711
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Aeviou.LinkFileList
-c000000004C4147810000000000000488
-t1279346561
-s1160
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o
-t1279154751
-s44964
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o
-t1279352727
-s19444
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o
-t1279154751
-s34252
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o
-t1279351414
-s24608
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o
-t1279348058
-s11108
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o
-t1279352727
-s21652
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o
-t1279351414
-s29568
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o
-t1279353742
-s7520
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o
-t1279348282
-s6940
-
-N/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o
-t1279154751
-s6280
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-t1279353742
-s952
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM
-t1279353742
-s102
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-t1279353742
-s54856
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/AeviouView
-t2
-s0
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/AeviouView.h
-t1279266287
-s0
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/AeviouViewController.nib
-t1279271706
-s844
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist
-t1279154747
-s794
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Next.png
-t1279271987
-s1711
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Normal.png
-t1279271987
-s1672
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Possible.png
-t1279271987
-s1634
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Pressed.png
-t1279271987
-s1764
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Key-Selected.png
-t1279271987
-s1606
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper
-t2
-s0
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper.h
-t1279328927
-s85
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/MainWindow.nib
-t1279154750
-s1121
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/PkgInfo
-t1279154747
-s8
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-left.png
-t1279298255
-s2638
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-mid.png
-t1279298679
-s2479
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/blank-right.png
-t1279298679
-s2440
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-backspace.png
-t1279286130
-s1109
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-cap.png
-t1279286130
-s712
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-del.png
-t1279286130
-s566
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-en.png
-t1279286130
-s616
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-enter.png
-t1279286130
-s910
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-full.png
-t1279286130
-s573
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-number.png
-t1279286130
-s753
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-setup.png
-t1279286130
-s672
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-shift.png
-t1279286130
-s651
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-special.png
-t1279286130
-s755
-
-N/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/char-tab.png
-t1279286130
-s655
-
-N/Users/zk/Documents/Aeviou/images/Key-Next.png
-c000000004C3E618400000000000006AF
-t1279156612
-s1711
-
-N/Users/zk/Documents/Aeviou/images/Key-Normal.png
-c000000004C3E61BB0000000000000688
-t1279156667
-s1672
-
-N/Users/zk/Documents/Aeviou/images/Key-Possible.png
-c000000004C3E61F70000000000000662
-t1279156727
-s1634
-
-N/Users/zk/Documents/Aeviou/images/Key-Pressed.png
-c000000004C3E62EE00000000000006E4
-t1279156974
-s1764
-
-N/Users/zk/Documents/Aeviou/images/Key-Selected.png
-c000000004C3E630B0000000000000646
-t1279157003
-s1606
-
-N/Users/zk/Documents/Aeviou/images/blank-left.png
-c000000004C4089580000000000000A4E
-t1279297880
-s2638
-
-N/Users/zk/Documents/Aeviou/images/blank-mid.png
-c000000004C408C1200000000000009AF
-t1279298578
-s2479
-
-N/Users/zk/Documents/Aeviou/images/blank-right.png
-c000000004C408C1E0000000000000988
-t1279298590
-s2440
-
-N/Users/zk/Documents/Aeviou/images/char-backspace.png
-c000000004C405B080000000000000455
-t1279286024
-s1109
-
-N/Users/zk/Documents/Aeviou/images/char-cap.png
-c000000004C40594100000000000002C8
-t1279285569
-s712
-
-N/Users/zk/Documents/Aeviou/images/char-del.png
-c000000004C405ADB0000000000000236
-t1279285979
-s566
-
-N/Users/zk/Documents/Aeviou/images/char-en.png
-c000000004C405A870000000000000268
-t1279285895
-s616
-
-N/Users/zk/Documents/Aeviou/images/char-enter.png
-c000000004C4059D3000000000000038E
-t1279285715
-s910
-
-N/Users/zk/Documents/Aeviou/images/char-full.png
-c000000004C405A5A000000000000023D
-t1279285850
-s573
-
-N/Users/zk/Documents/Aeviou/images/char-number.png
-c000000004C405AA200000000000002F1
-t1279285922
-s753
-
-N/Users/zk/Documents/Aeviou/images/char-setup.png
-c000000004C405A0900000000000002A0
-t1279285769
-s672
-
-N/Users/zk/Documents/Aeviou/images/char-shift.png
-c000000004C405962000000000000028B
-t1279285602
-s651
-
-N/Users/zk/Documents/Aeviou/images/char-special.png
-c000000004C405ABE00000000000002F3
-t1279285950
-s755
-
-N/Users/zk/Documents/Aeviou/images/char-tab.png
-c000000004C405A24000000000000028F
-t1279285796
-s655
-
-N/Users/zk/Documents/Aeviou/main.m
-c000000004C3DC6190000000000000162
-t1279116825
-s354
-i<UIKit/UIKit.h>
-
-N/var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch.gch
-t1279154750
-s13825936
-
-N/var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch.gch
-t1279457363
-s13825936
-
-NAeviou-Info.plist
-c000000004C3DC61800000000000004D6
-t1279116824
-s1238
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies301202788#301202788#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o /Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.270071
-e301150163.396635
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o
-x/Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m301150163#301150163#0(0"0(0#0#55"/Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m8596172800#1794"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/AeviouAppDelegate.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o /Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300847550.933474
-e300847551.097614
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o
-x/Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m300847550#300847551#0(0"0(0#0#54"/Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m8602562784#1783"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/AeviouAppDelegate.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouAppDelegate.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o /Users/dhl/Documents/Aeviou/Classes/AeviouView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.582559
-e301150163.643069
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o
-x/Users/dhl/Documents/Aeviou/Classes/AeviouView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/dhl/Documents/Aeviou/Classes/AeviouView.m301150163#301150163#0(0"0(0#0#48"/Users/dhl/Documents/Aeviou/Classes/AeviouView.m8606852096#1780"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/AeviouView.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o /Users/zk/Documents/Aeviou/Classes/AeviouView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301045527.073034
-e301045527.138343
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o
-x/Users/zk/Documents/Aeviou/Classes/AeviouView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/zk/Documents/Aeviou/Classes/AeviouView.m301045527#301045527#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/Classes/AeviouView.m8650149248#1769"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/AeviouView.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouView.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o /Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.371209
-e301150163.439451
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o
-x/Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m301150163#301150163#0(0"0(0#0#58"/Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m8592139520#1800"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/AeviouViewController.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o /Users/zk/Documents/Aeviou/Classes/AeviouViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300847551.087592
-e300847551.146440
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o
-x/Users/zk/Documents/Aeviou/Classes/AeviouViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/zk/Documents/Aeviou/Classes/AeviouViewController.m300847551#300847551#0(0"0(0#0#57"/Users/zk/Documents/Aeviou/Classes/AeviouViewController.m8601032896#1789"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/AeviouViewController.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/AeviouViewController.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o /Users/dhl/Documents/Aeviou/Classes/DynamicKey.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.396725
-e301150163.503879
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o
-x/Users/dhl/Documents/Aeviou/Classes/DynamicKey.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/dhl/Documents/Aeviou/Classes/DynamicKey.m301150163#301150163#0(0"0(0#0#48"/Users/dhl/Documents/Aeviou/Classes/DynamicKey.m8596170624#1780"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/DynamicKey.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o /Users/zk/Documents/Aeviou/Classes/DynamicKey.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301044214.375648
-e301044214.484333
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o
-x/Users/zk/Documents/Aeviou/Classes/DynamicKey.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/zk/Documents/Aeviou/Classes/DynamicKey.m301044214#301044214#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/Classes/DynamicKey.m8618882688#1769"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/DynamicKey.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/DynamicKey.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o /Users/dhl/Documents/Aeviou/Classes/KeyImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.503973
-e301150163.582471
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o
-x/Users/dhl/Documents/Aeviou/Classes/KeyImage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/dhl/Documents/Aeviou/Classes/KeyImage.m301150163#301150163#0(0"0(0#0#46"/Users/dhl/Documents/Aeviou/Classes/KeyImage.m8603186208#1776"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/KeyImage.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o /Users/zk/Documents/Aeviou/Classes/KeyImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301040858.227788
-e301040858.286630
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o
-x/Users/zk/Documents/Aeviou/Classes/KeyImage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/zk/Documents/Aeviou/Classes/KeyImage.m301040858#301040858#0(0"0(0#0#45"/Users/zk/Documents/Aeviou/Classes/KeyImage.m8620850112#1765"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/KeyImage.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyImage.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o /Users/dhl/Documents/Aeviou/Classes/Keyboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.439544
-e301150163.517676
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o
-x/Users/dhl/Documents/Aeviou/Classes/Keyboard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/dhl/Documents/Aeviou/Classes/Keyboard.m301150163#301150163#0(0"0(0#0#46"/Users/dhl/Documents/Aeviou/Classes/Keyboard.m8594173632#1776"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/Keyboard.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o /Users/zk/Documents/Aeviou/Classes/Keyboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301045526.914790
-e301045527.169531
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o
-x/Users/zk/Documents/Aeviou/Classes/Keyboard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/zk/Documents/Aeviou/Classes/Keyboard.m301045526#301045527#0(0"0(0#0#45"/Users/zk/Documents/Aeviou/Classes/Keyboard.m8633832896#1765"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/Keyboard.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Keyboard.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o /Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.517771
-e301150163.720408
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o
-x/Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m301150163#301150163#0(0"0(0#0#57"/Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m8607196416#1798"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/KeyboardArrangement.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o /Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301044214.479389
-e301044214.590327
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o
-x/Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m301044214#301044214#0(0"0(0#0#56"/Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m8624086144#1787"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/KeyboardArrangement.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardArrangement.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o /Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.643165
-e301150163.780149
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o
-x/Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m301150163#301150163#0(0"0(0#0#52"/Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m8603469504#1788"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/KeyboardHelper.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o /Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301046542.093073
-e301046542.209277
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o
-x/Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m301046542#301046542#0(0"0(0#0#51"/Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m8644430816#1777"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/KeyboardHelper.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/KeyboardHelper.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o /Users/dhl/Documents/Aeviou/Classes/PinYinTree.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.720492
-e301150163.783607
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o
-x/Users/dhl/Documents/Aeviou/Classes/PinYinTree.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/dhl/Documents/Aeviou/Classes/PinYinTree.m301150163#301150163#0(0"0(0#0#48"/Users/dhl/Documents/Aeviou/Classes/PinYinTree.m8603120960#1780"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/Classes/PinYinTree.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o /Users/zk/Documents/Aeviou/Classes/PinYinTree.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301041082.081779
-e301041082.183981
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o
-x/Users/zk/Documents/Aeviou/Classes/PinYinTree.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/zk/Documents/Aeviou/Classes/PinYinTree.m301041082#301041082#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/Classes/PinYinTree.m8619144448#1769"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/Classes/PinYinTree.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/PinYinTree.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o /Users/dhl/Documents/Aeviou/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150163.268421
-e301150163.371112
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o
-x/Users/dhl/Documents/Aeviou/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/dhl/Documents/Aeviou/main.m301150163#301150163#0(0"0(0#0#34"/Users/dhl/Documents/Aeviou/main.m8600641184#1760"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch -c /Users/dhl/Documents/Aeviou/main.m -o /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o0#
-
-CCompileC build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o /Users/zk/Documents/Aeviou/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300847550.931856
-e300847551.087502
-r1
-xCompileC
-xbuild/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o
-x/Users/zk/Documents/Aeviou/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/zk/Documents/Aeviou/main.m300847550#300847551#0(0"0(0#0#33"/Users/zk/Documents/Aeviou/main.m8602706624#1749"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -include /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch -c /Users/zk/Documents/Aeviou/main.m -o /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/dhl/Documents/Aeviou/AeviouViewController.xib
-r0
-
-CCompileXIB /Users/dhl/Documents/Aeviou/MainWindow.xib
-r0
-
-CCompileXIB /Users/zk/Documents/Aeviou/AeviouViewController.xib
-s300964505.826768
-e300964506.195947
-r1
-xCompileXIB
-x/Users/zk/Documents/Aeviou/AeviouViewController.xib
-lSLF07#2@35"CompileXIB AeviouViewController.xib300964505#300964506#0(0"0(0#0#51"/Users/zk/Documents/Aeviou/AeviouViewController.xib8613910432#553"    cd /Users/zk/Documents/Aeviou    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/AeviouViewController.nib /Users/zk/Documents/Aeviou/AeviouViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
-
-CCompileXIB /Users/zk/Documents/Aeviou/MainWindow.xib
-s300847547.161653
-e300847550.097573
-r1
-xCompileXIB
-x/Users/zk/Documents/Aeviou/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib300847547#300847550#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#41"/Users/zk/Documents/Aeviou/MainWindow.xib8602655744#533"    cd /Users/zk/Documents/Aeviou    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/MainWindow.nib /Users/zk/Documents/Aeviou/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/AeviouView Classes/AeviouView
-r0
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/AeviouView.h Classes/AeviouView.h
-s300959087.227294
-e300959087.270703
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/AeviouView.h
-xClasses/AeviouView.h
-lSLF07#2@25"Copy Classes/AeviouView.h300959087#300959087#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/Classes/AeviouView.h8615643040#427"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/Classes/AeviouView.h /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Next.png images/Key-Next.png
-s300964787.167086
-e300964787.219465
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/Key-Next.png
-ximages/Key-Next.png
-lSLF07#2@24"Copy images/Key-Next.png300964787#300964787#0(0"0(0#0#46"/Users/zk/Documents/Aeviou/images/Key-Next.png12948351447138408#426"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/Key-Next.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Normal.png images/Key-Normal.png
-s300964787.167797
-e300964787.211816
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/Key-Normal.png
-ximages/Key-Normal.png
-lSLF07#2@26"Copy images/Key-Normal.png300964787#300964787#0(0"0(0#0#48"/Users/zk/Documents/Aeviou/images/Key-Normal.png8616049152#428"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/Key-Normal.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Possible.png images/Key-Possible.png
-s300964787.168366
-e300964787.215738
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/Key-Possible.png
-ximages/Key-Possible.png
-lSLF07#2@28"Copy images/Key-Possible.png300964787#300964787#0(0"0(0#0#50"/Users/zk/Documents/Aeviou/images/Key-Possible.png8615692448#430"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/Key-Possible.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Pressed.png images/Key-Pressed.png
-s300964787.168838
-e300964787.219597
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/Key-Pressed.png
-ximages/Key-Pressed.png
-lSLF07#2@27"Copy images/Key-Pressed.png300964787#300964787#0(0"0(0#0#49"/Users/zk/Documents/Aeviou/images/Key-Pressed.png8615280384#429"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/Key-Pressed.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/Key-Selected.png images/Key-Selected.png
-s300964787.169308
-e300964787.219207
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/Key-Selected.png
-ximages/Key-Selected.png
-lSLF07#2@28"Copy images/Key-Selected.png300964787#300964787#0(0"0(0#0#50"/Users/zk/Documents/Aeviou/images/Key-Selected.png8618791936#430"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/Key-Selected.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper Classes/KeyboardHelper
-r0
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/KeyboardHelper.h Classes/KeyboardHelper.h
-s301021727.769944
-e301021727.802068
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/KeyboardHelper.h
-xClasses/KeyboardHelper.h
-lSLF07#2@29"Copy Classes/KeyboardHelper.h301021727#301021727#0(0"0(0#0#51"/Users/zk/Documents/Aeviou/Classes/KeyboardHelper.h8618547456#431"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/Classes/KeyboardHelper.h /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/blank-left.png images/blank-left.png
-s300991055.494147
-e300991055.500696
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/blank-left.png
-ximages/blank-left.png
-lSLF07#2@26"Copy images/blank-left.png300991055#300991055#0(0"0(0#0#48"/Users/zk/Documents/Aeviou/images/blank-left.png8614224768#428"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/blank-left.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/blank-mid.png images/blank-mid.png
-s300991479.235507
-e300991479.246402
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/blank-mid.png
-ximages/blank-mid.png
-lSLF07#2@25"Copy images/blank-mid.png300991479#300991479#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/images/blank-mid.png8614525056#427"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/blank-mid.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/blank-right.png images/blank-right.png
-s300991479.236218
-e300991479.246819
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/blank-right.png
-ximages/blank-right.png
-lSLF07#2@27"Copy images/blank-right.png300991479#300991479#0(0"0(0#0#49"/Users/zk/Documents/Aeviou/images/blank-right.png8613860672#429"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/blank-right.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-backspace.png images/char-backspace.png
-s300978930.176365
-e300978930.218816
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-backspace.png
-ximages/char-backspace.png
-lSLF07#2@30"Copy images/char-backspace.png300978930#300978930#0(0"0(0#0#52"/Users/zk/Documents/Aeviou/images/char-backspace.png12948351447138408#432"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-backspace.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-cap.png images/char-cap.png
-s300978930.177213
-e300978930.218950
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-cap.png
-ximages/char-cap.png
-lSLF07#2@24"Copy images/char-cap.png300978930#300978930#0(0"0(0#0#46"/Users/zk/Documents/Aeviou/images/char-cap.png8615023328#426"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-cap.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-del.png images/char-del.png
-s300978930.178626
-e300978930.219049
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-del.png
-ximages/char-del.png
-lSLF07#2@24"Copy images/char-del.png300978930#300978930#0(0"0(0#0#46"/Users/zk/Documents/Aeviou/images/char-del.png8614916864#426"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-del.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-en.png images/char-en.png
-s300978930.180035
-e300978930.219144
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-en.png
-ximages/char-en.png
-lSLF07#2@23"Copy images/char-en.png300978930#300978930#0(0"0(0#0#45"/Users/zk/Documents/Aeviou/images/char-en.png8614873056#425"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-en.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-enter.png images/char-enter.png
-s300978930.182379
-e300978930.221497
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-enter.png
-ximages/char-enter.png
-lSLF07#2@26"Copy images/char-enter.png300978930#300978930#0(0"0(0#0#48"/Users/zk/Documents/Aeviou/images/char-enter.png8614678144#428"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-enter.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-full.png images/char-full.png
-s300978930.184359
-e300978930.219239
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-full.png
-ximages/char-full.png
-lSLF07#2@25"Copy images/char-full.png300978930#300978930#0(0"0(0#0#47"/Users/zk/Documents/Aeviou/images/char-full.png8614583232#427"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-full.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-number.png images/char-number.png
-s300978930.185767
-e300978930.222388
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-number.png
-ximages/char-number.png
-lSLF07#2@27"Copy images/char-number.png300978930#300978930#0(0"0(0#0#49"/Users/zk/Documents/Aeviou/images/char-number.png8614489568#429"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-number.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-setup.png images/char-setup.png
-s300978930.187050
-e300978930.219353
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-setup.png
-ximages/char-setup.png
-lSLF07#2@26"Copy images/char-setup.png300978930#300978930#0(0"0(0#0#48"/Users/zk/Documents/Aeviou/images/char-setup.png8614404096#428"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-setup.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-shift.png images/char-shift.png
-s300978930.187662
-e300978930.219457
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-shift.png
-ximages/char-shift.png
-lSLF07#2@26"Copy images/char-shift.png300978930#300978930#0(0"0(0#0#48"/Users/zk/Documents/Aeviou/images/char-shift.png8614349152#428"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-shift.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-special.png images/char-special.png
-s300978930.188517
-e300978930.219567
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-special.png
-ximages/char-special.png
-lSLF07#2@28"Copy images/char-special.png300978930#300978930#0(0"0(0#0#50"/Users/zk/Documents/Aeviou/images/char-special.png8614039872#430"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-special.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CCpResource build/Debug-iphonesimulator/Aeviou.app/char-tab.png images/char-tab.png
-s300978930.219642
-e300978930.225038
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Aeviou.app/char-tab.png
-ximages/char-tab.png
-lSLF07#2@24"Copy images/char-tab.png300978930#300978930#0(0"0(0#0#46"/Users/zk/Documents/Aeviou/images/char-tab.png8616069600#426"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zk/Documents/Aeviou/images/char-tab.png /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CGenerateDSYMFile /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-s301150164.141964
-e301150164.226731
-r1
-xGenerateDSYMFile
-x/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM
-x/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Aeviou.app.dSYM build/Debug-iphonesimulator/Aeviou.app/Aeviou301150164#301150164#0(0"0(0#0#73"/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou8594786688#347"    cd /Users/dhl/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou -o /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM0#
-
-CGenerateDSYMFile /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-s301046542.231732
-e301046542.248203
-r1
-xGenerateDSYMFile
-x/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM
-x/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Aeviou.app.dSYM build/Debug-iphonesimulator/Aeviou.app/Aeviou301046542#301046542#0(0"0(0#0#72"/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou8649229152#344"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou -o /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app.dSYM0#
-
-CLd /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou normal i386
-s301150163.783688
-e301150164.141866
-r1
-xLd
-x/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-xnormal
-xi386
-lSLF07#2@78"Link /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou301150163#301150164#0(0"0(0#0#0"8595824768#840"    cd /Users/dhl/Documents/Aeviou    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -filelist /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Aeviou.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou0#
-
-CLd /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou normal i386
-s301046542.209362
-e301046542.231639
-r1
-xLd
-x/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou
-xnormal
-xi386
-lSLF07#2@77"Link /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou301046542#301046542#0(0"0(0#0#0"8651763712#835"    cd /Users/zk/Documents/Aeviou    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -filelist /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Objects-normal/i386/Aeviou.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Aeviou0#
-
-CProcessInfoPlistFile /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist Aeviou-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist Aeviou-Info.plist
-s300847547.098493
-e300847547.161563
-r1
-xProcessInfoPlistFile
-x/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist
-xAeviou-Info.plist
-lSLF07#2@25"Process Aeviou-Info.plist300847547#300847547#0(0"0(0#0#44"/Users/zk/Documents/Aeviou/Aeviou-Info.plist13229813538947188#440"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Aeviou-Info.plist -genpkginfo /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app/Info.plist0#
-
-CProcessPCH /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch.gch Aeviou_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s300847550.097989
-e300847550.931605
-r1
-xProcessPCH
-x/var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch.gch
-xAeviou_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Aeviou_Prefix.pch300847550#300847550#0(0"0(0#0#44"/Users/zk/Documents/Aeviou/Aeviou_Prefix.pch8598961952#1654"    cd /Users/zk/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/zk/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -c /Users/zk/Documents/Aeviou/Aeviou_Prefix.pch -o /var/folders/jd/jdNUEzPYFYmUAE-Xepktnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-biarrjihxzwysxcnzeapofjnonvp/Aeviou_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch.gch Aeviou_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s301150161.460906
-e301150163.268269
-r1
-xProcessPCH
-x/var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch.gch
-xAeviou_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Aeviou_Prefix.pch301150161#301150163#0(0"0(0#0#45"/Users/dhl/Documents/Aeviou/Aeviou_Prefix.pch7309993516098086912#1664"    cd /Users/dhl/Documents/Aeviou    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-generated-files.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-own-target-headers.hmap -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-all-target-headers.hmap -iquote /Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/Aeviou-project-headers.hmap -F/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator -I/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/include -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources/i386 -I/Users/dhl/Documents/Aeviou/build/Aeviou.build/Debug-iphonesimulator/Aeviou.build/DerivedSources -c /Users/dhl/Documents/Aeviou/Aeviou_Prefix.pch -o /var/folders/qd/qdaWvZDMFJyNJG9vN0oOFU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aeviou_Prefix-eldxsyxmrwrjkucqtyljrsjnijzq/Aeviou_Prefix.pch.gch0#
-
-CTouch /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-s301150164.226831
-e301150164.612122
-r1
-xTouch
-x/Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-lSLF07#2@72"Touch /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app301150164#301150164#0(0"0(0#0#0"8595058304#255"    cd /Users/dhl/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dhl/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-
-CTouch /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-s301046542.248297
-e301046542.250672
-r1
-xTouch
-x/Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app
-lSLF07#2@71"Touch /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app301046542#301046542#0(0"0(0#0#0"8644967840#253"    cd /Users/zk/Documents/Aeviou    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zk/Documents/Aeviou/build/Debug-iphonesimulator/Aeviou.app0#
-

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<com.aeviou.keyboard.CandidateView android:height="80px"
-    android:layout_height="80px" android:layout_width="300px"
-    android:orientation="vertical" android:width="300px" xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@+id/PinyinSeq" android:layout_height="25px"
-        android:layout_width="fill_parent" android:text="TextView01"/>
-    <View android:id="@+id/SentenceView"
-        android:layout_height="fill_parent" android:layout_width="fill_parent"/>
-</com.aeviou.keyboard.CandidateView>

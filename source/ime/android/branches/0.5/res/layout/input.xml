@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<com.aeviou.keyboard.AeviouKeyboardView android:id="@+id/keyboard"
-    android:layout_alignParentBottom="true"
-    android:layout_height="wrap_content"
-    android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"/>
