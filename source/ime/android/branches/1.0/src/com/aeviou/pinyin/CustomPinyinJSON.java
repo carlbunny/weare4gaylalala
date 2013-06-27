@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Stack;
 
 import org.apache.http.util.EncodingUtils;
 import org.json.JSONArray;
@@ -39,7 +40,7 @@ public class CustomPinyinJSON extends CustomPinyin {
 	private static final int DEFAULT_FREQUENCY = 99;
 
 	private HashMap<String, HashMap<String, PinyinObject>> pinyinHash;
-	private int lastPinyinLength;
+	private Stack<Integer> lastPinyinLength;
 	private boolean hasSD;
 
 	public static CustomPinyin getInstance() {
@@ -74,6 +75,7 @@ public class CustomPinyinJSON extends CustomPinyin {
 			e.printStackTrace();
 		}
 		this.pinyinHash = new HashMap<String, HashMap<String, PinyinObject>>();
+		lastPinyinLength=new Stack<Integer>();
 		this.pinyin = new StringBuilder();
 		initPinyinMap();
 	}
@@ -245,7 +247,8 @@ public class CustomPinyinJSON extends CustomPinyin {
 	 */
 	@Override
 	public void clearPinyin() {
-		this.pinyin.delete(0, this.pinyin.length());
+		lastPinyinLength.clear();
+		pinyin.delete(0, pinyin.length());
 	}
 
 	/*
@@ -255,11 +258,11 @@ public class CustomPinyinJSON extends CustomPinyin {
 	 */
 	@Override
 	public void addPinyin(String pinyin) {
-		ALog.v("addpinyin:" + pinyin);
+//		ALog.v("addpinyin:" + pinyin);
 
 		this.pinyin.append(pinyin);
-		ALog.v("this.pinyin:" + this.pinyin);
-		this.lastPinyinLength = pinyin.length();
+//		ALog.v("this.pinyin:" + this.pinyin);
+		lastPinyinLength.push(pinyin.length());
 	}
 
 	/*
@@ -269,8 +272,11 @@ public class CustomPinyinJSON extends CustomPinyin {
 	 */
 	@Override
 	public void removePinyin() {
-		this.pinyin.delete(this.pinyin.length() - this.lastPinyinLength,
-				this.pinyin.length());
+		if(lastPinyinLength.isEmpty()==false){
+			int length=lastPinyinLength.pop();
+			this.pinyin.delete(this.pinyin.length() - length,
+					pinyin.length());
+		}
 	}
 
 	/*
