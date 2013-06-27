@@ -1,12 +1,14 @@
 package com.aeviou.pinyin;
 
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
 import android.content.res.AssetManager;
+import android.content.res.Resources.NotFoundException;
 
 import com.aeviou.R;
 import com.aeviou.utils.AeviouConstants;
@@ -60,16 +62,26 @@ public class PinyinContext {
 		lianxiang = new PinyinLianxiang(PinyinFile.PINYIN_FILE_DIRECTORY
 				+ PinyinFile.PINYIN_LIANXIANG_FILENAME);
 
-		Scanner lastCharScanner = new Scanner(new InputStreamReader(
-				AeviouConstants.inputMethodService.getResources()
-						.openRawResource(R.raw.last_char)));
-		String[] line;
-		lastChar = new HashMap<Character, String>();
-		while (lastCharScanner.hasNext()) {
-			line = lastCharScanner.nextLine().split(" ");
-			lastChar.put(PinyinTree.getInstance().getPinyinId(line[0]), line[1]);
-		}
+		Scanner lastCharScanner;
+		try {
+			lastCharScanner = new Scanner(new InputStreamReader(
+					AeviouConstants.inputMethodService.getResources()
+							.openRawResource(R.raw.last_char), "GBK"));
 
+			String[] line;
+			lastChar = new HashMap<Character, String>();
+			while (lastCharScanner.hasNext()) {
+				line = lastCharScanner.nextLine().split(" ");
+				lastChar.put(PinyinTree.getInstance().getPinyinId(line[0]),
+						line[1]);
+			}
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		this.clearContext();
 
 		System.gc();
