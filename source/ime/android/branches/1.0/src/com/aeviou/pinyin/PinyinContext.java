@@ -407,18 +407,19 @@ public class PinyinContext {
 			sentence.delete(correctPosition, l);
 			l = correctPosition;
 		}
-		PinyinSentence greedy = GreedyAlgorithm(l);
-		PinyinSentence longest = LongestAlgorithm(l);
+//		PinyinSentence greedy = GreedyAlgorithm(l);
+//		PinyinSentence longest = LongestAlgorithm(l);
 
 		String newMy = longestPathAlg.LongestTreeAlgorithm(l, pinyinListSize);
 
-		if (greedy.isBetterThan(longest)) {
-			// sentence.append(greedy.sentence);
-			ALog.v(greedy.sentence);
-		} else {
-			// sentence.append(longest.sentence);
-			ALog.v(longest.sentence);
-		}
+//		if (greedy.isBetterThan(longest)) {
+//			// sentence.append(greedy.sentence);
+//			ALog.v(greedy.sentence);
+//		} else {
+//			// sentence.append(longest.sentence);
+//			ALog.v(longest.sentence);
+//		}
+		
 		sentence.append(newMy);
 	}
 

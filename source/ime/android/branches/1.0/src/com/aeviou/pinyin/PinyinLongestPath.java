@@ -58,7 +58,8 @@ public class PinyinLongestPath {
 				valueInMatrix = weightArr[wordLength + 1]
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 			} else
-				valueInMatrix = weightArr[wordLength]
+				//same weight in front has more weight
+				valueInMatrix = (weightArr[wordLength]+startInMatrix)
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 
 			if (valueInMatrix < 0) {
