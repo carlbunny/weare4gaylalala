@@ -58,8 +58,8 @@ public class PinyinLongestPath {
 				valueInMatrix = weightArr[wordLength + 1]
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 			} else
-				//same weight in front has more weight
-				valueInMatrix = (weightArr[wordLength]+startInMatrix)
+				// same weight in front has more weight
+				valueInMatrix = (weightArr[wordLength] + startInMatrix)
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 
 			if (valueInMatrix < 0) {
@@ -160,8 +160,15 @@ public class PinyinLongestPath {
 		strBuilder.delete(0, strBuilder.length());
 		for (; startPos < pyLength;) {
 			int wordEndIndex = pathMatrix[startPos] - 1;
-			strBuilder.append(hanzi.getFirst(firstMatrix[startPos][wordEndIndex
-					- startPos]));
+			if (startPos == pyLength - 1
+					&& lastCharMap.get(pinyinList[startPos]) != null) {
+				strBuilder.append(lastCharMap.get(pinyinList[startPos]));
+			} else {
+				strBuilder
+						.append(hanzi
+								.getFirst(firstMatrix[startPos][wordEndIndex
+										- startPos]));
+			}
 			startPos = pathMatrix[startPos];
 		}
 
