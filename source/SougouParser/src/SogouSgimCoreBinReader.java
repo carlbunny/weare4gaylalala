@@ -121,12 +121,12 @@ public class SogouSgimCoreBinReader {
 					if (pinyin != null && !word.contains("^?")) {
 						counter++;
 						if(word.charAt(0)==startChar){
-							polyphoneArr.add(new PinyinObject(word,pinyin,0));
+							polyphoneArr.add(new PinyinObject(word,pinyin,1));
 						}else{
 							wirghtArrBack(polyphoneArr,pw);
 							startChar=word.charAt(0);
 							polyphonePrefix="";
-							polyphoneArr.add(new PinyinObject(word,pinyin,0));
+							polyphoneArr.add(new PinyinObject(word,pinyin,1));
 						}
 					}else{
 //						System.out.println("Error: word: "+word+" "+pinyin);

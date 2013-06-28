@@ -42,6 +42,8 @@ public class ListMerger {
 			pw = new PrintWriter(new FileWriter(path));
 			for (ArrayList<PinyinObject> pObjArr : pinyinMerge) {
 				for(PinyinObject pObj:pObjArr){
+					//we don`t like zero
+					pObj.frequency+=1;
 					pw.println(pObj);
 				}
 			}
@@ -101,13 +103,13 @@ public class ListMerger {
 						pObj.frequency += 1;
 						countUpdate++;
 					} else {
-						pObj = new PinyinObject(line[0], line[1], 0);
+						pObj = new PinyinObject(line[0], line[1], 1);
 						array.add(pObj);
 						countAdd++;
 					}
 				}else{
 					ArrayList<PinyinObject> array=new ArrayList<PinyinObject>();
-					array.add(new PinyinObject(line[0], line[1], 0));
+					array.add(new PinyinObject(line[0], line[1], 1));
 					map.put(line[0], array);
 					countAdd++;
 				}
