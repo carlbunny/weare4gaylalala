@@ -37,10 +37,10 @@ public class PinyinContext {
 	private PinyinNode node;
 	private PinyinHanzi hanzi;
 	private PinyinLianxiang lianxiang;
-	
+
 	private char[] combiningChars;
-	
-	private PinyinLongestPath longestPathAlg=null; 
+
+	private PinyinLongestPath longestPathAlg = null;
 
 	public PinyinContext() {
 		pinyinList = new char[MAX_SETENCE_LENGTH];
@@ -87,7 +87,9 @@ public class PinyinContext {
 		}
 		this.clearContext();
 
-		longestPathAlg=new PinyinLongestPath(MAX_SETENCE_LENGTH, MAX_WORD_LENGTH, hanzi, firstMatrix,freqencyMatrix);
+		longestPathAlg = new PinyinLongestPath(MAX_SETENCE_LENGTH,
+				MAX_WORD_LENGTH, hanzi, firstMatrix, freqencyMatrix, lastChar,
+				pinyinList);
 		System.gc();
 	}
 
@@ -407,14 +409,14 @@ public class PinyinContext {
 		}
 		PinyinSentence greedy = GreedyAlgorithm(l);
 		PinyinSentence longest = LongestAlgorithm(l);
-		
-		String newMy=longestPathAlg.LongestTreeAlgorithm(l,pinyinListSize);
-		
+
+		String newMy = longestPathAlg.LongestTreeAlgorithm(l, pinyinListSize);
+
 		if (greedy.isBetterThan(longest)) {
-//			sentence.append(greedy.sentence);
+			// sentence.append(greedy.sentence);
 			ALog.v(greedy.sentence);
 		} else {
-//			sentence.append(longest.sentence);
+			// sentence.append(longest.sentence);
 			ALog.v(longest.sentence);
 		}
 		sentence.append(newMy);

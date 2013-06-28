@@ -41,22 +41,22 @@
 			<PreferenceCategory android:persistent="true"
 				android:title="@string/setting_fuzzy_title">
 				<CheckBoxPreference android:persistent="true"
-					android:title="@string/z_zh" android:defaultValue="false"
+					android:title="@string/z_zh" android:defaultValue="true"
 					android:key="z_zh" />
 				<CheckBoxPreference android:persistent="true"
-					android:title="@string/c_ch" android:defaultValue="false"
+					android:title="@string/c_ch" android:defaultValue="true"
 					android:key="c_ch" />
 				<CheckBoxPreference android:persistent="true"
-					android:title="@string/s_sh" android:defaultValue="false"
+					android:title="@string/s_sh" android:defaultValue="true"
 					android:key="s_sh" />
 				<CheckBoxPreference android:persistent="true"
 					android:title="@string/an_ang" android:defaultValue="false"
 					android:key="an_ang" />
 				<CheckBoxPreference android:persistent="true"
-					android:title="@string/en_eng" android:defaultValue="false"
+					android:title="@string/en_eng" android:defaultValue="true"
 					android:key="en_eng" />
 				<CheckBoxPreference android:persistent="true"
-					android:title="@string/in_ing" android:defaultValue="false"
+					android:title="@string/in_ing" android:defaultValue="true"
 					android:key="in_ing" />
 				<CheckBoxPreference android:persistent="true"
 					android:title="@string/l_n" android:defaultValue="false"
