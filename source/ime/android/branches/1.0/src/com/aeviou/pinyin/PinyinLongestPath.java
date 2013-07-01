@@ -29,7 +29,9 @@ public class PinyinLongestPath {
 
 		tFreqencyMatrix = new float[MAX_SETENCE_LENGTH][MAX_WORD_LENGTH];
 		pathMatrix = new int[MAX_SETENCE_LENGTH];
-		maxValueStore = new float[MAX_SETENCE_LENGTH];
+		maxValueStore = new float[MAX_SETENCE_LENGTH + 1];
+		maxValueStore[maxValueStore.length - 1] = 0;// edge case of DP
+
 		weightArr = new int[MAX_WORD_LENGTH + 1];
 		for (int i = 0; i < weightArr.length; i++) {
 			weightArr[i] = 1 << (i * 5);
@@ -58,8 +60,7 @@ public class PinyinLongestPath {
 				valueInMatrix = weightArr[wordLength + 1]
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 			} else
-				// same weight in front has more weight
-				valueInMatrix = (weightArr[wordLength] + startInMatrix)
+				valueInMatrix = weightArr[wordLength]
 						* tFreqencyMatrix[startInMatrix][wordLength - 1];
 
 			if (valueInMatrix < 0) {
@@ -80,49 +81,34 @@ public class PinyinLongestPath {
 		return maxValue;
 	}
 
-	// class IterStruct{
-	// public int startInMatrix,wordLength;
-	// public float valueInMatrix;
-	//
-	// public IterStruct(int startInMatrix,int wordLength,float valueInMatrix){
-	// this.startInMatrix=startInMatrix;
-	// this.wordLength=wordLength;
-	// this.valueInMatrix=valueInMatrix;
-	// }
-	// }
-	//
-	// Stack<IterStruct> parStack = new Stack<IterStruct>();
-	// Stack<Float> returnStack=new Stack<Float>();
-	//
-	// private void searchNodeIter(int defaultStartInMatrix) {
-	// parStack.clear();
-	// returnStack.clear();
-	//
-	// parStack.push(new IterStruct(defaultStartInMatrix,1,0.0f));
-	//
-	// while (parStack.isEmpty() == false) {
-	// IterStruct par=parStack.pop();
-	//
-	// if (pathMatrix[par.startInMatrix] != -1){
-	// returnStack.push(maxValueStore[par.startInMatrix]);
-	// continue;
-	// }
-	// //the for
-	// if(par.wordLength <= MAX_WORD_LENGTH
-	// && par.startInMatrix + par.wordLength <= pyLength){
-	// float valueInMatrix = weightArr[par.wordLength]
-	// * tFreqencyMatrix[par.startInMatrix][par.wordLength - 1];
-	// if(valueInMatrix < 0){
-	// par.wordLength++;// cut
-	// parStack.push(par);
-	// }
-	// if (par.startInMatrix + par.wordLength < pyLength)
-	// valueInMatrix = valueInMatrix
-	// + searchNode(startInMatrix + wordLength);
-	// }
-	//
-	// }
-	// }
+	public void searchIter(int startPos) {
+		int currentPos = pyLength - 1;
+		// init
+		if (lastCharMap.containsKey((pinyinList[currentPos]))) {
+			maxValueStore[currentPos] = weightArr[2];// 100% frequency
+		} else {
+			maxValueStore[currentPos] = weightArr[1]
+					* tFreqencyMatrix[currentPos][0];
+		}
+		float tValue = -1;
+		for (currentPos -= 1; currentPos >= startPos; currentPos--) {
+			// partition
+			for (int firstLength = 1; currentPos + firstLength <= pyLength
+					&& firstLength <= MAX_WORD_LENGTH; firstLength++) {
+				if (tFreqencyMatrix[currentPos][firstLength - 1] != -1) {
+					tValue = weightArr[firstLength]
+							* tFreqencyMatrix[currentPos][firstLength - 1]
+							+ maxValueStore[currentPos + firstLength];
+					if (tValue >= maxValueStore[currentPos]) {
+						maxValueStore[currentPos] = tValue;
+						pathMatrix[currentPos] = currentPos + firstLength;
+					}
+				}
+
+			}
+		}
+
+	}
 
 	private void Frequency2Weight() {
 		for (int j = 0; j < MAX_WORD_LENGTH; j++) {
@@ -154,14 +140,15 @@ public class PinyinLongestPath {
 		}
 		Frequency2Weight();
 
-		searchNode(startPos);
+		// searchNode(startPos);
+		searchIter(startPos);
 		pathMatrix[pyLength - 1] = pyLength;
 
 		strBuilder.delete(0, strBuilder.length());
 		for (; startPos < pyLength;) {
 			int wordEndIndex = pathMatrix[startPos] - 1;
 			if (startPos == pyLength - 1
-					&& lastCharMap.get(pinyinList[startPos]) != null) {
+					&& lastCharMap.containsKey((pinyinList[startPos]))) {
 				strBuilder.append(lastCharMap.get(pinyinList[startPos]));
 			} else {
 				strBuilder
