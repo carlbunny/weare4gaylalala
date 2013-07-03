@@ -33,6 +33,7 @@ public class TipView extends View {
 
 	private final int crossRadius = 10;
 	private final int crossWidth = 3;
+	private final float tipRadius = 2;
 	
 	private int x,y;
 	private int width,height;
@@ -84,7 +85,7 @@ public class TipView extends View {
 			HexKey lastKey = hexKeyboard.path.getLast();
 			if (lastKey == null)
 				return;
-			int left = (int) (lastKey.centerX - 1.5 * AeviouConstants.NORMAL_IME_HEXKEY_WIDTH), top = (int) (lastKey.centerY - 1.5 * AeviouConstants.NORMAL_IME_HEXKEY_HEIGHT), right = (int) (lastKey.centerX + 1.5 * AeviouConstants.NORMAL_IME_HEXKEY_WIDTH), bottom = (int) (lastKey.centerY + 1.5 * AeviouConstants.NORMAL_IME_HEXKEY_HEIGHT);
+			int left = (int) (lastKey.centerX - tipRadius * AeviouConstants.NORMAL_IME_HEXKEY_WIDTH), top = (int) (lastKey.centerY - tipRadius * AeviouConstants.NORMAL_IME_HEXKEY_HEIGHT), right = (int) (lastKey.centerX + tipRadius * AeviouConstants.NORMAL_IME_HEXKEY_WIDTH), bottom = (int) (lastKey.centerY + tipRadius * AeviouConstants.NORMAL_IME_HEXKEY_HEIGHT);
 
 			if (left < 0) {
 				right -= left;
